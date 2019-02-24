@@ -17,7 +17,7 @@ def selects_oldest_bear_and_returns_name_and_age
 end
 
 def select_youngest_bear_and_returns_name_and_age
-  "SELECT name, MIN(age) FROM bears"
+  "SELECT color, COUNT(color) FROM bears WHERE color = 'dark brown' GROUP BY color"
 end
 
 def selects_most_prominent_color_and_returns_with_count
