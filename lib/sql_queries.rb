@@ -1,5 +1,5 @@
 def selects_all_female_bears_return_name_and_age
-  "SELECT name, gender WHERE gender = 'F' GROUP BY name, age;"
+  "SELECT gender WHERE gender = 'F' GROUP BY name, age;"
 end
 
 
